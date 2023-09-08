@@ -2,18 +2,13 @@ public class Operators
 {
     public static void main(String[] args)
     {
-        int i ;
-        double f = 2.5 ;
+        int i = 10 ;
+        int f = 1 ;
         boolean flag = true ;
-        i = 10 ; {
-            System.out.println(++i) ;
-        }
-        
-        f += i ; {
-            System.out.println(f) ;
-        }
-        flag = !flag ; {
-            System.out.println(flag) ;
-        }
+        f += i ;
+        flag = !flag ;
+        System.out.println(++i) ;
+        System.out.println(f) ;
+        System.out.println(flag) ;
     }
 }
