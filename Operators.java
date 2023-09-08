@@ -3,7 +3,7 @@ public class Operators
     public static void main(String[] args)
     {
         int i = 10 ;
-        int f = 1 ;
+        int f = 2 ;
         boolean flag = true ;
         f += i ;
         flag = !flag ;
